@@ -1,3 +1,0 @@
-Alumno: Ander
-Materia: Programación C
-Repositorio: hello-world-cpp
