@@ -4,7 +4,7 @@
 #define MAX_ESTUDIANTES 100
 #define MAX_TEXTO 50
 
-/* ===== ESTRUCTURA ===== */
+ESTRUCTURA 
 struct Estudiante {
     char nombre[MAX_TEXTO];
     char codigo[15];   // Ej: A25234567
@@ -13,7 +13,7 @@ struct Estudiante {
     int activo;        // 1 = activo, 0 = inactivo
 };
 
-/* ===== FUNCIONES DE ACTUALIZACIÓN ===== */
+FUNCIONES DE ACTUALIZACIÓN 
 void actualizarNombre(struct Estudiante *e, char nuevoNombre[]) {
     strcpy(e->nombre, nuevoNombre);
 }
@@ -38,7 +38,7 @@ void actualizarActivo(struct Estudiante *e, int nuevoEstado) {
     e->activo = nuevoEstado;
 }
 
-/* ===== FUNCIONES DE MOSTRAR ===== */
+FUNCIONES DE MOSTRAR 
 void mostrarInformacionCompleta(struct Estudiante e) {
     printf("\n--- INFORMACION DEL ESTUDIANTE ---\n");
     printf("Nombre: %s\n", e.nombre);
@@ -48,7 +48,7 @@ void mostrarInformacionCompleta(struct Estudiante e) {
     printf("Estado: %s\n", e.activo ? "Activo" : "Inactivo");
 }
 
-/* ===== AGREGAR ESTUDIANTE ===== */
+ AGREGAR ESTUDIANTE 
 void agregarEstudiante(struct Estudiante estudiantes[], int *contador) {
     struct Estudiante e;
 
@@ -75,7 +75,7 @@ void agregarEstudiante(struct Estudiante estudiantes[], int *contador) {
     printf("Estudiante agregado correctamente.\n");
 }
 
-/* ===== MOSTRAR UN ESTUDIANTE ===== */
+ MOSTRAR UN ESTUDIANTE 
 void mostrarEstudiante(struct Estudiante estudiantes[], int contador) {
     char codigoBuscado[15];
 
@@ -94,7 +94,7 @@ void mostrarEstudiante(struct Estudiante estudiantes[], int contador) {
     printf("Estudiante no encontrado.\n");
 }
 
-/* ===== MOSTRAR TODOS ===== */
+ MOSTRAR TODOS 
 void mostrarTodos(struct Estudiante estudiantes[], int contador) {
     if (contador == 0) {
         printf("No hay estudiantes registrados.\n");
@@ -106,7 +106,7 @@ void mostrarTodos(struct Estudiante estudiantes[], int contador) {
     }
 }
 
-/* ===== MAIN ===== */
+ MAIN
 int main() {
     struct Estudiante estudiantes[MAX_ESTUDIANTES];
     int contador = 0;
