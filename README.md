@@ -8,4 +8,4 @@ Correo: Contactoanderr@gmail.com
 
 
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://https://deepwiki.com/sudo-anderBM/programacion_2026) 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sudo-anderBM/programacion_2026)
