@@ -1,0 +1,9 @@
+{
+  "id": "1776697550",
+  "fecha_carpeta": "2026-04-20_09",
+  "total_mensajes": 2,
+  "mensajes": [
+    { "remitente": "usuario", "contenido": "hola que tal" },
+    { "remitente": "bot", "contenido": "Dijiste: hola que tal" }
+  ]
+}
